@@ -1,0 +1,39 @@
+HERE ARE THE THEORY QUESTIONS FOR THE EXERCISE 1 OF DSA ASSIGNMENT 
+
+Q1. Why are data structures and algorithms essential in handling large inventories?
+
+Data structures and algorithms are crucial for efficiently managing large inventories because 
+they provide organized ways to store, retrieve, and manipulate data. Efficient data structures 
+ensure that operations such as adding, updating, or deleting products can be performed quickly, 
+even as the inventory size grows. Proper algorithms allow for effective searching, sorting, and 
+managing of data, which is essential for real-time inventory management and decision-making.
+
+Q2. What types of Data Structures Suitable for This Problem ? 
+
+1. ArrayList: Useful for maintaining a dynamic array of products where we can easily access
+    elements by index. It's suitable for scenarios where the frequency of additions and deletions 
+    is low compared to access operations.
+2. HashMap: Ideal for scenarios where quick access to products by their unique IDs is required. It provides
+    average-case constant time complexity for add, update, and delete operations.
+
+Q3. Do the proper Time Complexity Analysis
+
+For Add Operation:
+    Time Complexity: O(1) on average (due to HashMap's average-case constant time for put operations).
+For Update Operation:
+    Time Complexity: O(1) on average (since updating an entry in a HashMap is similar to adding, it has constant time complexity).
+For Delete Operation:
+    Time Complexity: O(1) on average (removing an entry from a HashMap also has constant time complexity).
+
+Q4. Discuss the optimization techniques for this problem.
+
+Memory Management: Ensuring the HashMap is appropriately sized can help avoid excessive memory usage 
+and rehashing operations, which can be costly.
+
+Concurrent Access: For a system with multiple concurrent users, consider using a ConcurrentHashMap for 
+thread-safe operations.
+Batch Operations: Implementing batch add, update, or delete operations can minimize the overhead 
+of repeated operations and improve performance.
+
+Final point:  By using a HashMap, we achieve efficient time complexity for the core operations (add, update, delete) 
+necessary for managing a large inventory. 

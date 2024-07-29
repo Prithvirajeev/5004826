@@ -1,0 +1,39 @@
+HERE ARE THE QUESTIONS FOR THE RECURSIVE ALGORITHM PROBLEM STATEMENT 
+
+Q1. What do you understand by the recursive algorithms ?
+
+Concept of Recursion:
+
+Definition: Recursion is a technique where a function calls itself directly or indirectly to solve a problem. It breaks down a problem into smaller sub-problems of the same type.
+Base Case and Recursive Case:
+        Base Case: The condition under which the recursion stops.
+        Recursive Case: The part of the function where it calls itself with modified arguments.
+
+Advantages:
+        Simplifies code for problems that have repetitive sub-problems.
+        Easy to understand and implement for problems like factorial, Fibonacci sequence, etc.
+
+Disadvantages:
+        Can lead to excessive function calls and stack overflow if not designed correctly.
+        May have higher time complexity due to repeated calculations.
+
+Q2. What is the time complexity for the recursive algorithm ?
+
+Time Complexity of the Recursive Algorithm:
+
+Time Complexity: O(n), where n is the number of years.
+                 The function makes one recursive call per year, resulting 
+                 in a linear time complexity.
+
+Q3. What are the advantages of optimizing the recursive problem ?
+
+Advantages of Using Memoization:
+
+1. Avoids Redundant Computation: By storing the results of already computed sub-problems, 
+memoization prevents the same computation from being repeated.
+
+2. Improves Efficiency: Reduces the time complexity from potentially exponential to linear for 
+many problems, making the recursive solution much more efficient.
+
+3. By incorporating memoization, the recursive algorithm becomes significantly more efficient, particularly
+ for problems involving overlapping sub-problems and repeated calculations.

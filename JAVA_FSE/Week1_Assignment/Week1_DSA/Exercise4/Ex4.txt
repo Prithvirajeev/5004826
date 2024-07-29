@@ -1,0 +1,52 @@
+THESE ARE THE QUESTIONS THAT ARE BASED ON THIS PROBLEM STATEMENT FOR EXERCISE-4 IN DSA 
+
+Q1. Understanding Array Representation 
+
+Array Representation in Memory
+
+Contiguous Memory Allocation: Arrays are stored in contiguous memory locations, meaning each element of the 
+array is placed sequentially in memory. This allows for efficient indexing.
+
+Indexing: Arrays allow O(1) time complexity for accessing elements by index, due to their contiguous memory allocation.
+
+Advantages:
+Fast Access: Constant time access to elements using an index.
+Memory Efficiency: Minimal overhead since elements are stored contiguously.
+Predictable Memory Usage: Fixed size and straightforward memory allocation.
+
+
+Q2. Discuss the time complexity for each operations in array 
+
+Time Complexity of Each Operation
+
+Add Employee:
+Time Complexity: O(1) for adding an employee to the end of the array (if there is space).
+Search Employee:
+Time Complexity: O(n), where n is the number of employees, since it may need to scan the entire array.
+Traverse Employees:
+Time Complexity: O(n), as it needs to visit each element once.
+Delete Employee:
+Time Complexity: O(n) in the worst case, as it may need to search for the employee and shift elements to fill the gap.
+
+Q3. What are the limitations of array: 
+
+Limitations of Arrays
+
+Fixed Size: Arrays have a fixed size and cannot be resized dynamically. If the number of employees 
+exceeds the array capacity, a new larger array must be created and elements copied over.
+
+Insertion/Deletion Cost: Inserting or deleting elements in the middle of an array requires
+shifting elements, which is costly (O(n)).
+
+Memory Waste: If the array is not full, unused elements occupy memory space, leading to potential waste.
+
+Q4. When should we use arrays ?
+
+Arrays are suitable when:
+1. The number of elements is known in advance and is relatively constant.
+Fast access to elements by index is required.
+
+2. Memory is limited, and minimal overhead is desired.
+
+3. In cases where dynamic resizing or frequent insertion and deletion of elements 
+are needed, other data structures like ArrayLists or linked lists might be more appropriate.

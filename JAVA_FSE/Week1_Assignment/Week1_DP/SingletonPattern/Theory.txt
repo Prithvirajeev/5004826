@@ -1,0 +1,17 @@
+Here are the questions for the This problem statement 
+
+Q1. Implementation of the singleton pattern 
+
+The Logger class implementation above ensures that only one instance of the class is created:
+
+Private Constructor: Ensures no other class can instantiate the Logger class directly.
+Private Static Instance: Holds the single instance of the Logger class.
+Public Static Method: Provides access to the single instance, creating it if necessary.
+
+Q2. What is the summary for the problem statement givem below ?
+
+Singleton Pattern: Ensures that a class has only one instance and provides a global 
+point of access to that instance.
+
+Testing: Verifies that the Logger class maintains a single instance across the application.
+

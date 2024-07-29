@@ -1,0 +1,18 @@
+HERE IS THE THERORY FOR THE FOLLOWING PROBLEM STATEMENT 
+
+Q1. Give the proper summary for this design pattern :
+
+Summary
+1. Document Interface: Defines the common operations for all document types.
+
+2. Concrete Document Classes: Implement the Document interface and provide specific
+   behavior for each document type.
+
+3. DocumentFactory Abstract Class: Declares the factory method createDocument().
+
+4. Concrete Factory Classes: Implement the factory method to create specific document types.
+
+5. Test Class: Demonstrates the use of the factory method pattern to create different document types.
+
+This setup adheres to the Factory Method Pattern by providing a way to create objects without specifying the 
+exact class of object that will be created.

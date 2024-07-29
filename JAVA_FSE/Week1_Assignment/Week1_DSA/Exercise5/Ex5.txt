@@ -1,0 +1,53 @@
+HERE ARE THE QUESTIONS THAT ARE REQUIRED FOR THIS PROBLEM STATEMENT 
+
+Q1. Discuss the types of LinkedLists 
+
+Types of Linked Lists
+
+1. Singly Linked List:
+
+    Description: A singly linked list consists of nodes where each node contains data and a reference (or link) to the next node in the sequence.
+    Operations:
+        Insertion: O(1) at the beginning, O(n) at the end (if no tail reference).
+        Deletion: O(1) for the first element, O(n) for the rest.
+        traversal: O(n).
+
+2. Doubly Linked List:
+
+    Description: A doubly linked list contains nodes with data, a reference to the next node, and a reference to the previous node.
+    Operations:
+        Insertion: O(1) at the beginning or end.
+        Deletion: O(1) for known nodes.
+        Traversal: O(n) for both directions.
+
+Q2. Analyze the time complexity for each operation in this data :
+
+Time Complexity of Each Operation
+
+Add Task: Time Complexity: O(n) to add a task at the end (without tail reference), O(1) 
+          if adding at the beginning.
+
+Search Task: Time Complexity: O(n) as it may need to scan the entire list.
+
+Traverse Tasks: Time Complexity: O(n) as it needs to visit each element.
+
+Delete Task: Time Complexity: O(n) as it may need to search for the task before deletion.
+
+Q3. What are the Advantages of Linked Lists Over Arrays for Dynamic Data ?
+
+Dynamic Size: Linked lists can grow and shrink dynamically, unlike arrays which have a fixed size.
+Efficient Insertions/Deletions: Linked lists allow efficient O(1) insertions and deletions when the
+position is known, especially at the beginning of the list.
+Memory Usage: Linked lists do not require contiguous memory allocation, reducing memory fragmentation 
+and making better use of memory.
+
+Q4. When should we Use Linked Lists ?
+
+Frequent Insertions/Deletions: When the application requires frequent insertions and deletions, especially 
+in the middle of the list, linked lists are preferred.
+
+Unknown Size: When the size of the dataset is not known in advance and can change dynamically, linked lists 
+are more appropriate.
+
+Memory Management: When dealing with large datasets where contiguous memory allocation is not feasible, 
+linked lists can manage memory more efficiently.

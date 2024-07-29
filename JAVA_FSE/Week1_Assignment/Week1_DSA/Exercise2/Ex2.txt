@@ -1,0 +1,51 @@
+THESE ARE THE QUESTIONS FOR THE EXERCISE-2 IN DSA ASSIGNMENT 
+
+Q1. What do yout understand by the Asymptotic Notation for this problem statement ?
+Big O Notation : 
+
+    Big O notation is a mathematical notation used to describe the upper bound of an algorithm's runtime performance
+    or space requirements in terms of the size of the input data. It provides a way to express how the runtime or space
+    requirements of an algorithm grow as the input size grows.
+    This notation is essential for comparing the efficiency of different algorithms, particularly when dealing with large data sets.
+
+Q2. Explain the Best, Average, and Worst-Case Scenarios for Search Operations
+
+Best-case scenario: The condition where the search operation takes the minimum amount of time.
+                    For example, in a linear search, the best case occurs when the target element is the first element 
+                    in the array, resulting in O(1) time complexity.
+
+Average-case scenario: The condition where the search operation's time complexity represents the average 
+                        performance across all possible inputs. For linear search, this is typically O(n/2), 
+                        which simplifies to O(n).
+
+Worst-case scenario: The condition where the search operation takes the maximum amount of time. In linear search, 
+                    the worst case occurs when the target element is the last element or not present in the array,
+                     resulting in O(n) time complexity.
+
+Q3. Analyze and discuss the problem statement and the solution :
+Time Complexity Comparison
+
+Linear Search:
+            Time Complexity: O(n)
+            Best-case: O(1)
+            Average-case: O(n/2) ~ O(n)
+            Worst-case: O(n)
+
+Binary Search:
+            Time Complexity: O(log n)
+            Best-case: O(1)
+            Average-case: O(log n)
+            Worst-case: O(log n)
+
+DISCUSSION ABOUT THE PROBLEM :
+For an e-commerce platform, the choice of search algorithm depends on the data size and frequency 
+of search operations:
+
+Linear Search:  Suitable for smaller datasets or unsorted arrays. It does not require the array to be sorted,
+                making it more flexible but less efficient for large datasets.
+
+Binary Search:  More suitable for larger datasets, provided the array is sorted. It is significantly faster (O(log n)) 
+                compared to linear search (O(n)) when dealing with large data sets.
+
+Given the need for fast performance on an e-commerce platform, binary search is generally more suitable due to its logarithmic
+time complexity, ensuring quicker search times for large inventories.

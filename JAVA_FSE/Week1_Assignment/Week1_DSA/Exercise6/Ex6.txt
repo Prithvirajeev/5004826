@@ -1,0 +1,45 @@
+THEASE ARE THE QUESTIONS FOR THE PROBLEM STATEMENT GIVEN AND SOLVED BELOW 
+
+Q1. What do you understand by the search algorithms ?
+
+Linear Search Algorithm:
+
+Description: Linear search scans each element in the list sequentially until the desired element is found or the end of the list is reached.
+Time Complexity:
+Best Case: O(1) (when the element is the first one).
+Average Case: O(n).
+Worst Case: O(n) (when the element is the last one or not present).
+
+Binary Search Algorithm:
+
+Description: Binary search operates on sorted lists and repeatedly divides the search interval in half. It compares the target value to the middle element of the list. If they are not equal, it eliminates half of the list from consideration and continues the search in the remaining half.
+Time Complexity:
+Best Case: O(1) (when the element is the middle one).
+Average Case: O(log n).
+Worst Case: O(log n).
+
+Q2. Analyze the time complexity for each of the following operation in this search algorithm ?
+Time Complexity of Each Operation
+
+Linear Search:
+
+Best Case: O(1) (when the element is the first one).
+Average Case: O(n).
+Worst Case: O(n) (when the element is the last one or not present).
+
+Binary Search:
+
+Best Case: O(1) (when the element is the middle one).
+Average Case: O(log n).
+Worst Case: O(log n).
+
+Q3. When should we us this search algorithms ?
+Linear Search:
+    Use Case: Suitable for small or unsorted datasets. It does not require the dataset to be sorted.
+    Advantages: Simple to implement and works on any dataset.
+    Disadvantages: Inefficient for large datasets due to its O(n) time complexity.
+
+Binary Search:
+    Use Case: Ideal for large, sorted datasets. It is much faster due to its O(log n) time complexity.
+    Advantages: Efficient for large datasets.
+    Disadvantages: Requires the dataset to be sorted, which may add overhead if the data is frequently updated.
