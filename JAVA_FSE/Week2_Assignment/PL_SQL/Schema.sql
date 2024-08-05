@@ -43,8 +43,6 @@ CREATE TABLE Employees (
     HireDate DATE
 ); 
 
-Example Scripts for Sample Data Insertion
-
 INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
 VALUES (1, 'John Doe', TO_DATE('1985-05-15', 'YYYY-MM-DD'), 1000, SYSDATE);
 
